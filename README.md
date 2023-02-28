@@ -1,17 +1,17 @@
 # error-js
 
-try {
+        try {
 
-  const myError = new Error('This is a custom error message');
-  throw myError;
-
-
-} catch (error) {
+          const myError = new Error('This is a custom error message');
+          throw myError;
 
 
-  console.error(error.message);
-  console.error(error.stack);
-  console.error(error.name);
-  
-  
-}
+        } catch (error) {
+
+
+          console.error(error.message);
+          console.error(error.stack);
+          console.error(error.name);
+
+
+        }
